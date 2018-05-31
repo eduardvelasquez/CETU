@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CETU</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_hint_username">Usuario</string>
+    <string name="login_hint_password">Password</string>
+
+    <string name="login_text_btn_log">Iniciar sesion</string>
+    <string name="login_text_btn_cancel">Cancelar</string>
+
+
+    <string name="login_error_fields">Campo requerido!</string>
+
+
+    <string name="login_text_btn_save">Guardar</string>
+
+</resources>
