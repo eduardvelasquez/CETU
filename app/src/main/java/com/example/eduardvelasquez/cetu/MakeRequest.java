@@ -37,6 +37,10 @@ public class MakeRequest extends Fragment implements Response.Listener<JSONObjec
     JsonObjectRequest jsonObjRequest;
     String user;
 
+    //la marlent se la come
+    //entera
+    //toda
+    //gruesa
 
 
     @Override
@@ -110,7 +114,7 @@ public class MakeRequest extends Fragment implements Response.Listener<JSONObjec
 
     @Override
     public void onResponse(JSONObject response) {
-        Toast.makeText(getContext(), "Se ha almacenado correctamente", Toast.LENGTH_LONG).show();
+        Toast.makeText(getContext(), "Se ha almacenado correctamente"+response, Toast.LENGTH_LONG).show();
         progreso.setVisibility(View.GONE);
 
     }

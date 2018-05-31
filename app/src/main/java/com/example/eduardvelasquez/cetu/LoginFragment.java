@@ -143,6 +143,7 @@ public class LoginFragment extends Fragment implements Response.Listener<JSONObj
         }
 
         //showUser.setText(usuario.getNombre()+usuario.getPassword());
+
         showUser.setText(usuario.getNombre() +" Password: "+ usuario.getPassword());
 
 
